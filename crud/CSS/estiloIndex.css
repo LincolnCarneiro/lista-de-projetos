@@ -1,0 +1,45 @@
+*{
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    width: 100%;
+    background-color: #cac7c7;
+}
+header{
+    background-color: rgb(43, 42, 42);
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+main{
+    padding: 30px 50px;
+    height: 100vh;
+    background-color: white;
+}s
+.content{
+    margin-top: 15px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th{
+    padding: 1px 5px;
+    text-align: center;
+}
+.btn-lg{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+td{
+    text-align: center;
+} 

@@ -1,0 +1,69 @@
+*{
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container-cadastro{
+    width: 500px;
+    height: max-content;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+hr{
+    margin-bottom: 20px;
+}
+.container-formulario{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.container-submit{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 50%;
+    height: 40px;
+}
+form>span{
+    color: red;
+    font-size: 10px;
+    margin-bottom: 10px; 
+}
+#validado-sucesso{
+    color: green;
+    font-size: 15px;
+    margin-left: 10%;
+}
+.container-voltar{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
